@@ -44,6 +44,7 @@ class VideoUploader:
     def upload(self, metadata):
         # self.read()
         # return
+        print(f"Uploading video with info: {metadata}")
         body = {
             "snippet": {
                 "title": metadata["title"],
@@ -123,6 +124,7 @@ class VideoUploader:
 
     # ---------------- THUMBNAIL ---------------- #
     def upload_thumbnail(self, video_id, thumbnail_path):
+        print("Uploading Thumbnail....")
         if not os.path.exists(thumbnail_path):
             raise FileNotFoundError("Thumbnail file not found")
 
@@ -180,36 +182,10 @@ class VideoUploader:
 if __name__ == "__main__":
     youtube =  YouTubeAuth.get_service()
     uploader = VideoUploader(youtube)
-    id="5dY035BU7B8"
-    
-
-    # video_metadata = {
-    #     "title": "My Test Upload",
-    #     "description": "This video was uploaded using Python",
-    #     "keywords": ["python", "youtube", "api"],
-    #     "category": "22",
-    #     "privacyStatus": "private",
-    #     "file": "video.mp4"
-    # }
-
-    # thumbnail_path = "thumbnail.jpg"
 
     try:
         # uploader.update_video_metadata(id)
         uploader.read(id)
-    #     video_id = uploader.upload_video(video_metadata)
-
-    #     # OPTIONAL UPDATE (after upload)
-    #     uploader.update_video_metadata(
-    #         video_id,
-    #         title="Updated Title After Upload",
-    #         description="Updated description after upload",
-    #         tags=["python", "automation", "youtube"]
-    #     )
-
-    #     uploader.upload_thumbnail(video_id, thumbnail_path)
-
-        # print(f"🎉 Upload complete! Video ID: {video_id}")
 
     except HttpError as e:
         print(f"❌ HTTP Error {e.resp.status}: {e.content}")

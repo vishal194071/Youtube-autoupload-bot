@@ -10,9 +10,6 @@ def main():
     uploader = VideoUploader(youtube)
     videosMetadata = load_videos_from_json(file_path=JSON_FILE)
     for videoMetadata in videosMetadata:
-        print(videoMetadata)
-        print("\n")
-        print("-------------------")
         uploader.uploadVideoAndThumbnail(videoMetadata)
 
 if __name__ == "__main__":

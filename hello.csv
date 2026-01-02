@@ -1,0 +1,5 @@
+Title,Description,Tags,CategoryId,Visibility,PublishAt,VideoFile,Thumbnail,PlaylistId,MadeForKids,Language,License,AllowEmbedding,NotifySubscribers
+How Discord Handles Trillions of Messages,Deep dive into Discord's scalable infrastructure and message system,"discord,system design,backend,engineering",28,private,2026-01-10T18:30:00Z,videos/discord.mp4,thumbnails/discord.png,PL1234567890,false,en,youtube,true,true
+Netflix WAL Explained,How Netflix uses Write-Ahead Logging to ensure reliability,"netflix,wal,distributed systems,cloud",28,private,2026-01-11T18:30:00Z,videos/netflix.mp4,thumbnails/netflix.png,PL1234567890,false,en,youtube,true,true
+AV1 Codec Explained,How AV1 codec improves streaming efficiency,"av1,codec,streaming,video",28,public,2026-01-12T18:30:00Z,videos/av1.mp4,thumbnails/av1.png,PL1234567890,false,en,youtube,true,true
+Kubernetes Explained,Kubernetes basics for beginners,"kubernetes,devops,containers",28,unlisted,2026-01-13T18:30:00Z,videos/k8s.mp4,thumbnails/k8s.png,PL1234567890,false,en,youtube,true,false

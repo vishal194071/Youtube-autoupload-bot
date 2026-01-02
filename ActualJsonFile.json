@@ -1,0 +1,85 @@
+[
+    {
+        "Title": "How Discord Handles Trillions of Messages",
+        "Description": "Deep dive into Discord's scalable infrastructure and message system",
+        "Tags": [
+            "discord",
+            "system design",
+            "backend",
+            "engineering"
+        ],
+        "CategoryId": "28",
+        "Visibility": "private",
+        "PublishAt": "2026-01-10T18:30:00Z",
+        "VideoFile": "videos/discord.mp4",
+        "Thumbnail": "thumbnails/discord.png",
+        "PlaylistId": "PL1234567890",
+        "MadeForKids": false,
+        "Language": "en",
+        "License": "youtube",
+        "AllowEmbedding": true,
+        "NotifySubscribers": true
+    },
+    {
+        "Title": "Netflix WAL Explained",
+        "Description": "How Netflix uses Write-Ahead Logging to ensure reliability",
+        "Tags": [
+            "netflix",
+            "wal",
+            "distributed systems",
+            "cloud"
+        ],
+        "CategoryId": "28",
+        "Visibility": "private",
+        "PublishAt": "2026-01-11T18:30:00Z",
+        "VideoFile": "videos/netflix.mp4",
+        "Thumbnail": "thumbnails/netflix.png",
+        "PlaylistId": "PL1234567890",
+        "MadeForKids": false,
+        "Language": "en",
+        "License": "youtube",
+        "AllowEmbedding": true,
+        "NotifySubscribers": true
+    },
+    {
+        "Title": "AV1 Codec Explained",
+        "Description": "How AV1 codec improves streaming efficiency",
+        "Tags": [
+            "av1",
+            "codec",
+            "streaming",
+            "video"
+        ],
+        "CategoryId": "28",
+        "Visibility": "public",
+        "PublishAt": "2026-01-12T18:30:00Z",
+        "VideoFile": "videos/av1.mp4",
+        "Thumbnail": "thumbnails/av1.png",
+        "PlaylistId": "PL1234567890",
+        "MadeForKids": false,
+        "Language": "en",
+        "License": "youtube",
+        "AllowEmbedding": true,
+        "NotifySubscribers": true
+    },
+    {
+        "Title": "Kubernetes Explained",
+        "Description": "Kubernetes basics for beginners",
+        "Tags": [
+            "kubernetes",
+            "devops",
+            "containers"
+        ],
+        "CategoryId": "28",
+        "Visibility": "unlisted",
+        "PublishAt": "2026-01-13T18:30:00Z",
+        "VideoFile": "videos/k8s.mp4",
+        "Thumbnail": "thumbnails/k8s.png",
+        "PlaylistId": "PL1234567890",
+        "MadeForKids": false,
+        "Language": "en",
+        "License": "youtube",
+        "AllowEmbedding": true,
+        "NotifySubscribers": false
+    }
+]

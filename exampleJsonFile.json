@@ -1,0 +1,28 @@
+[
+
+  {
+        "file": "videos/file_example_MP4_480_1_5MG.mp4",
+        "thumbnail": "videos/gamecommunity.png",
+        "title": "asccsi",
+        "description": "How Netflix uses Write-Ahead Logging to ensure reliability",
+        "tags": [
+          "cloud",
+          "distributed systems",
+          "netflix",
+          "wal"
+        ],
+        "categoryId": "15",
+        "defaultLanguage": "en-IN",
+        "defaultAudioLanguage": "hi",
+        "privacyStatus": "private",
+        "madeForKids": false,
+        "locationDescription": "Bengaluru",
+        "latitude": 12.9628669,
+        "longitude": 77.577509,
+        "altitude": 0,
+        "recordingDate": "2026-01-02T00:00:00Z"
+
+  }
+
+
+]

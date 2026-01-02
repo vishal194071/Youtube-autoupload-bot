@@ -2,11 +2,18 @@
 
 # OAuth
 CLIENT_SECRETS_FILE = "yt_upload.json"
-TOKEN_FILE = "token.json"
+YOUTUBE_TOKEN_FILE = "tokens/youtube/token.json"
+SHEET_TOKEN_FILE = "tokens/sheets/token.json"
 
 # YouTube API
 YOUTUBE_UPLOAD_SCOPE = ["https://www.googleapis.com/auth/youtube.upload",
-                        "https://www.googleapis.com/auth/youtube"]
+                        "https://www.googleapis.com/auth/youtube",
+                        ]
+
+SHEET_AND_DRIVE_SCOPE =[
+     "https://www.googleapis.com/auth/spreadsheets",
+     "https://www.googleapis.com/auth/drive"
+]
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
 

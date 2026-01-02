@@ -1,5 +1,6 @@
 env
 /env
 videos/roblox.mp4
-token.json
 __pycache__/*
+/tokens/sheets/*
+/tokens/youtube/*

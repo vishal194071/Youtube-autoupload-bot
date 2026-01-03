@@ -33,7 +33,7 @@ class VideoUploader:
         self.youtube = youtube
 
     # ---------------- UPLOAD VIDEO ---------------- #
-    def read(self,video_id="JvaBYNjhi3c"):
+    def read(self,video_id):
         response = self.youtube.videos().list(
         part="snippet,status,recordingDetails,localizations",
             id=video_id
@@ -42,9 +42,6 @@ class VideoUploader:
         print(f"response: {response}")
 
     def upload(self, metadata):
-        # self.read()
-        # return
-        print(f"Uploading video with info: {metadata}")
         body = {
             "snippet": {
                 "title": metadata["title"],
